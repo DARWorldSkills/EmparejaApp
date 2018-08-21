@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".Juego">
 
     <android.support.v7.widget.RecyclerView
@@ -38,6 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
+                android:textColor="@color/azulfondo"
                 android:gravity="center"
                 android:text="Jugador 1" />
 
@@ -47,6 +49,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textColor="@color/azulfondo"
                 android:text="0"
                 android:textSize="30sp" />
         </LinearLayout>
@@ -62,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
+                android:textColor="@color/azulfondo"
                 android:gravity="center"
                 android:text="Jugador 2" />
 
@@ -71,6 +75,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textColor="@color/azulfondo"
                 android:text="0"
                 android:textSize="30sp" />
         </LinearLayout>
@@ -95,6 +100,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Tiempo: "
+        android:textColor="@color/azulfondo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 

@@ -3,4 +3,7 @@
     <string name="ingresejugador1">Ingrese Jugador 1</string>
     <string name="ingresejugador2">Ingrese Jugador2</string>
     <string name="aceptar">Aceptar</string>
+
+    <string name="facebook_app_id">1099496346874653</string>
+    <string name="facebook_login_protocol_scheme">fb1099496346874653</string>
 </resources>
